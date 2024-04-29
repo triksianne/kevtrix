@@ -6,7 +6,7 @@
         if ($(this).scrollTop() > 0.000001) {
             $('.navbar').fadeIn('slow').css('display', 'flex');
         } else {
-            $('.navbar').fadeOut('slow').css('display', 'none');
+            $('.navbar').fadeIn('slow').css('display', 'flex');
         }
     });
 
